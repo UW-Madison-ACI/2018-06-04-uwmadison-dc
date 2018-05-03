@@ -215,8 +215,8 @@ tools for an efficient workflow once you leave the workshop.
 This workshop will be using the software outlined in the install instructions below.
 Please see the section for your operating system for those directions.
 
-{% include windows_install.html %}
+{% include windows_install.md %}
 
-{% include mac_install.html %}
+{% include mac_install.md %}
 
-{% include linux_install.html %}
+{% include linux_install.md %}
