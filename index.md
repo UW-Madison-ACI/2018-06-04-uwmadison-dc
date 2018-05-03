@@ -38,7 +38,7 @@ Make sure to read all details below before registering and to choose appropriate
 
 ## General Information
 
-[Data Carpentry](http://datacarpentry.org workshops are for any researcher
+[Data Carpentry](http://datacarpentry.org) workshops are for any researcher
 who has data they want to analyze, and no prior computational experience is required.
 This hands-on workshop teaches basic concepts, skills and tools for working more
 effectively with data.
