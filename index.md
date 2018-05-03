@@ -2,11 +2,11 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "SSCC Lab"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "1180 Observatory Dr, Madison, WI 53706"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "43.0728339,-89.4103303"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "June 4-5, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latlng: "43.0764116,-89.4052577"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "Jun 4-5, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:30am - 4:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-06-04      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-06-05        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -15,84 +15,47 @@ helper: ["Maria Kamenetsky", "Dorothea Salo", "Christina Koch"]     # boxed, com
 email: ["ContactACI@lists.wisc.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: "http://pad.software-carpentry.org/2018-06-04-uwmadison-dc"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-day1_am: "Data organization in spreadsheets and OpenRefine"
-day1_pm: "SQL for data management"
-day2_am: "Introduction to R"
-day2_pm: "Data analysis and visualization in R"
 ---
 
-{% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
+<!-- run "make workshop-check" to check things -->
 
-{% comment %}
-  HEADER
+Registration is required and will be available just below, starting at
+5:00pm on **some date to be determined**.
+Make sure to read all details below before registering and to choose appropriately between UW-Madison's
+[Data Carpentry](https://uw-madison-aci.github.io/2018-06-04-uwmadison-dc/) and
+[Software Carpentry](https://uw-madison-aci.github.io/2018-06-06-uwmadison-swc/) workshops.
 
-  Edit the values in the block above to be appropriate for your workshop.
-  If the value is not 'true', 'false', 'null', or a number, please use
-  double quotation marks around the value, unless specified otherwise.
-  And run 'make workshop-check' *before* committing to make sure that changes are good.
-{% endcomment %}
-
-{% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
 {% if page.eventbrite %}
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="248px"
+  height="206px"
   scrolling="auto">
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
-<h2 id="general">General Information</h2>
+## General Information
 
-{% comment %}
-  INTRODUCTION
+[Data Carpentry](http://datacarpentry.org workshops are for any researcher
+who has data they want to analyze, and no prior computational experience is required.
+This hands-on workshop teaches basic concepts, skills and tools for working more
+effectively with data.
 
-  Edit the general explanatory paragraph below if you want to change
-  the pitch.
-{% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/intro.html %}
-{% endif %}
+We will cover data organization in spreadsheets, OpenRefine, SQL for
+data management, and R for data analysis and visualization.
 
-{% comment %}
-  AUDIENCE
+For researchers who have already been programming and seek to expand their capabilities, our
+UW-Madison [Software Carpentry workshop (Jun 6-7)[https://uw-madison-aci.github.io/2018-06-06-uwmadison-swc] will likely be more appropriate.
+These two workshops are NOT intended to be taken back-to-back, and you can learn about
+future workshops at UW-Madison by joining the [mailing list](http://wisc.us9.list-manage.com/subscribe?u=c3aae71670855b66d79d170b8&id=6d65510fb6)
+of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
 
-  Explain who your audience is.  (In particular, tell readers if the
-  workshop is only open to people from a particular institution.
-{% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/who.html %}
-{% endif %}
+**Who:**
+  The course is aimed at UW-Madison-affiliated graduate students, staff, and other researchers.
 
-{% comment %}
-  LOCATION
 
-  This block displays the address and links to maps showing directions
-  if the latitude and longitude of the workshop have been set.  You
-  can use http://itouchmap.com/latlong.html to find the lat/long of an
-  address.
-{% endcomment %}
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
@@ -104,11 +67,6 @@ and our administrator may contact you if we need any extra information.</h4>
 </p>
 {% endif %}
 
-{% comment %}
-  DATE
-
-  This block displays the date and links to Google Calendar.
-{% endcomment %}
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
@@ -117,24 +75,13 @@ and our administrator may contact you if we need any extra information.</h4>
 </p>
 {% endif %}
 
-{% comment %}
-  SPECIAL REQUIREMENTS
-
-  Modify the block below if there are any special requirements.
-{% endcomment %}
-<p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
+<p>
+  <strong>Requirements:</strong> Participants should plan to attend BOTH days of the workshop and bring a
+  laptop with a Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.) that they have
+  administrative privileges on. They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
-  {% if page.carpentry == "swc" %}
-  Software Carpentry's
-  {% elsif page.carpentry == "dc" %}
   Data Carpentry's
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry's
-  {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <a href="{{site.dc_site}}/code-of-conduct/">Code of Conduct</a>.
 </p>
 
 {% comment %}
