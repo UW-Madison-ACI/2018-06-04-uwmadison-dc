@@ -182,7 +182,7 @@ of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
 <tr><td>1:00 - 2:30</td> <td>Data Visualization with ggplot2 </td></tr>
 <tr><td>2:30 - 2:45</td> <td>Coffee</td></tr>
 <tr><td>2:45 - 3:15</td> <td>Reproducible reports with R Markdown </td></tr>
-<tr><td>3:15 - 4:00</td> <td>Capstone project</a> </td></tr>
+<tr><td>3:15 - 4:00</td> <td>Capstone project </td></tr>
 <tr><td>4:00 - 4:15</td> <td>Wrap up and fill out the post-workshop survey (see below)</td></tr>
 <tr><td>4:15 - 5:00</td> <td>Join the Data Carpentry team for drinks and snacks at the Sett</td></tr>
 </table>
@@ -212,16 +212,11 @@ the first day.
 Participants should bring and use their own laptops to insure the proper setup of
 tools for an efficient workflow once you leave the workshop.
 
-<p>This workshop will be using the software outlined in the install instructions below.
+This workshop will be using the software outlined in the install instructions below.
 Please see the section for your operating system for those directions.
-<ul>
-<li><a href=#windows>Windows</a>
+
 {% include windows_install.html %}
 
-<li><a href=#mac>Mac</a>
 {% include mac_install.html %}
 
-<li><a href=#linux>Linux</a>
 {% include linux_install.html %}
-</ul>
-</p>
