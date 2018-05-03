@@ -47,7 +47,7 @@ We will cover data organization in spreadsheets, OpenRefine, SQL for
 data management, and R for data analysis and visualization.
 
 For researchers who have already been programming and seek to expand their capabilities, our
-UW-Madison [Software Carpentry workshop (Jun 6-7)[https://uw-madison-aci.github.io/2018-06-06-uwmadison-swc] will likely be more appropriate.
+UW-Madison [Software Carpentry workshop (Jun 6-7)](https://uw-madison-aci.github.io/2018-06-06-uwmadison-swc) will likely be more appropriate.
 These two workshops are NOT intended to be taken back-to-back, and you can learn about
 future workshops at UW-Madison by joining the [mailing list](http://wisc.us9.list-manage.com/subscribe?u=c3aae71670855b66d79d170b8&id=6d65510fb6)
 of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
