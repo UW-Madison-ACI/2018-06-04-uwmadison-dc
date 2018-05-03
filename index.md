@@ -231,21 +231,21 @@ get help.
   program, there are a few other options, like OpenOffice and LibreOffice. Install
   instructions for LibreOffice, which is free and open source, are here.
 
-    - **Download the Installer**
+  - **Download the Installer**
 
-      Install LibreOffice by going to the [installation
-      page](https://www.libreoffice.org/download/libreoffice-fresh/).
-      The version for Windows should automatically be selected.
-      Click on the button below "Main Installer" **Download Version
-      x.y.z**. You will go to a page that asks about a donation,
-      but you don't need to make one. Your download should begin
-      automatically.
+    Install LibreOffice by going to the [installation
+    page](https://www.libreoffice.org/download/libreoffice-fresh/).
+    The version for Windows should automatically be selected.
+    Click on the button below "Main Installer" **Download Version
+    x.y.z**. You will go to a page that asks about a donation,
+    but you don't need to make one. Your download should begin
+    automatically.
 
-    - **Install LibreOffice**
+  - **Install LibreOffice**
 
-      Once the installer is downloaded, double click on it and it should install.
+    Once the installer is downloaded, double click on it and it should install.
 
-    - To use LibreOffice, double click on the icon and it will open.
+  - To use LibreOffice, double click on the icon and it will open.
 
 - **OpenRefine**
 
@@ -256,18 +256,18 @@ get help.
   and when you open it, it will run through the browser, but you don't need
   an internet connection, and the data will all be stored on your computer.
 
-    - Go to the OpenRefine [download page](http://openrefine.org/download.html)
+  - Go to the OpenRefine [download page](http://openrefine.org/download.html)
 
-    - Click on _Windows kit_ to download the install file
+  - Click on _Windows kit_ to download the install file
 
-    - To use it, unzip, and double-click on openrefine.exe (if you're having issues
-      with openrefine.exe try refine.bat instead)
+  - To use it, unzip, and double-click on openrefine.exe (if you're having issues
+    with openrefine.exe try refine.bat instead)
 
-    - OpenRefine will then open in your web browser.
+  - OpenRefine will then open in your web browser.
 
-    - If it doesn't open automatically, open a web broswer after
-      you've started the program and go to the URL
-      <http://localhost:3333> and you should see OpenRefine.
+  - If it doesn't open automatically, open a web broswer after
+    you've started the program and go to the URL
+    <http://localhost:3333> and you should see OpenRefine.
 
 - **R**
 
@@ -291,13 +291,15 @@ get help.
 
   For this workshop we're going to use DB Browser for SQLite.
 
-    - Download the Windows.exe installer from the
-       [the DB Browser for SQLite website](http://sqlitebrowser.org/).
+  - Download the Windows.exe installer from the
+    [the DB Browser for SQLite website](http://sqlitebrowser.org/).
 
-    - Open the downloaded file and follow the instructions to install to your computer.
+  - Open the downloaded file and follow the instructions to install to your computer.
 
 
 
+
+---
 
 <h3 id="mac">Mac</h3>
 
@@ -345,11 +347,10 @@ get help.
   - Open the downloaded .dmg file
 
   - Drag the icon in to the Applications folder
-- Double click on the icon and Google Refine will then open in your web browser.
-- If it doesn't open automatically, open a web broswer after you've started the program and go to the URL <code>http://localhost:3333</code> and you should see OpenRefine.
 
+  - Double click on the icon and Google Refine will then open in your web browser.
 
-
+  - If it doesn't open automatically, open a web broswer after you've started the program and go to the URL <http://localhost:3333> and you should see OpenRefine.
 
 - **R**
 
@@ -383,6 +384,8 @@ get help.
 
 
 
+
+---
 
 <h3 id="linux">Linux</h3>
 
@@ -422,27 +425,27 @@ get help.
     see OpenRefine.
 
 
-  - **R**
+- **R**
 
-    In the workshop, we will use RStudio. RStudio is a nice interface to the
-    programming language R. To use RStudio, you need to install both R and RStudio.
+  In the workshop, we will use RStudio. RStudio is a nice interface to the
+  programming language R. To use RStudio, you need to install both R and RStudio.
 
-    - Follow the instructions for your distribution
-      from [CRAN](https://cloud.r-project.org/bin/linux/). For most distributions, you
-      can use your package manager (e.g. for Debian/Ubuntu run `sudo
-      apt-get install r-base`, and for Fedora run `sudo yum install
-      R`) but make sure that you have at least R 3.2.2 (as pre-packaged
-      versions might be out of date).
+  - Follow the instructions for your distribution
+    from [CRAN](https://cloud.r-project.org/bin/linux/). For most distributions, you
+    can use your package manager (e.g. for Debian/Ubuntu run `sudo
+    apt-get install r-base`, and for Fedora run `sudo yum install
+    R`) but make sure that you have at least R 3.2.2 (as pre-packaged
+    versions might be out of date).
 
-    - To install RStudio, go to
-      the [RStudio Download page](http://www.rstudio.com/ide/download/desktop)
+  - To install RStudio, go to
+    the [RStudio Download page](http://www.rstudio.com/ide/download/desktop)
 
-    - Under _Installers_ select the version for your distribution.
+  - Under _Installers_ select the version for your distribution.
 
-    - Once it's downloaded, double click the file to install it (or `sudo dpkg
-      -i rstudio-x.yy.zzz-amd64.deb` at the terminal).
+  - Once it's downloaded, double click the file to install it (or `sudo dpkg
+    -i rstudio-x.yy.zzz-amd64.deb` at the terminal).
 
-    - Once it's installed, open RStudio to make sure it works and you don't get any error messages.
+  - Once it's installed, open RStudio to make sure it works and you don't get any error messages.
 
 
 - **SQLite**
@@ -453,3 +456,5 @@ get help.
     [the DB Browser for SQLite website](http://sqlitebrowser.org/).
 
   - Open the downloaded file and follow the instructions to install to your computer.
+
+---
