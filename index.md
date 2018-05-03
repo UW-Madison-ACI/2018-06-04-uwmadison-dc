@@ -157,35 +157,35 @@ of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
 
 <h2 id="schedule">Preliminary schedule</h2>
 
-       <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>8:30 - 9:00</td>  <td>Installation Help</td> </tr>
-      <tr> <td>9:00 - 9:10</td>  <td>Introduction</td> </tr>
-      <tr><td>9:10 - 10:30</td> <td><a href="https://lmichael107.github.io/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td>10:30 - 10:45</td> <td>Break</td></tr>
-      <tr><td>10:45 - 12:00 </td> <td><a href="http://www.datacarpentry.org/OpenRefine-ecology-lesson/">Data Cleaning with OpenRefine</a></td></tr>
-      <tr><td>12:00 - 1:00</td> <td>Lunch Break</td></tr>
-      <tr><td>1:00 - 2:15</td> <td><a href="http://www.datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr><td>2:15 - 2:30</td> <td>Coffee</td></tr>
-      <tr><td>2:30 - 4:00</td> <td><a href="http://www.datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-    </table>
+<h3>Day 1</h3>
+<table class="table table-striped">
+<tr> <td>8:30 - 9:00</td>  <td>Installation Help</td> </tr>
+<tr> <td>9:00 - 9:10</td>  <td>Introduction</td> </tr>
+<tr><td>9:10 - 10:30</td> <td><a href="https://lmichael107.github.io/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
+<tr><td>10:30 - 10:45</td> <td>Break</td></tr>
+<tr><td>10:45 - 12:00 </td> <td><a href="http://www.datacarpentry.org/OpenRefine-ecology-lesson/">Data Cleaning with OpenRefine</a></td></tr>
+<tr><td>12:00 - 1:00</td> <td>Lunch Break</td></tr>
+<tr><td>1:00 - 2:15</td> <td><a href="http://www.datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
+<tr><td>2:15 - 2:30</td> <td>Coffee</td></tr>
+<tr><td>2:30 - 4:00</td> <td><a href="http://www.datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
+</table>
 
 
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>8:30 - 9:00</td>  <td>Installation Help</td> </tr>
-      <tr><td>9:00 - 9:15</td> <td>Day 2 intro</td></tr>
-      <tr><td>9:15 - 10:30</td> <td>Intro to R</td></tr>
-      <tr><td>10:30 - 10:45</td> <td>Break</td></tr>
-      <tr><td>10:45 - 12:00</td> <td>Data manipulation with dplyr</td></tr>
-      <tr><td>12:00 - 1:00</td> <td>Lunch Break</td></tr>
-      <tr><td>1:00 - 2:30</td> <td>Data Visualization with ggplot2 </td></tr>
-      <tr><td>2:30 - 2:45</td> <td>Coffee</td></tr>
-      <tr><td>2:45 - 3:15</td> <td>Reproducible reports with R Markdown </td></tr>
-      <tr><td>3:15 - 4:00</td> <td>Capstone project</a> </td></tr>
-      <tr><td>4:00 - 4:15</td> <td>Wrap up and fill out the post-workshop survey (see below)</td></tr>
-      <tr><td>4:15 - 5:00</td> <td>Join the Data Carpentry team for drinks and snacks at the Sett</td></tr>
-  </table>
+<h3>Day 2</h3>
+<table class="table table-striped">
+<tr> <td>8:30 - 9:00</td>  <td>Installation Help</td> </tr>
+<tr><td>9:00 - 9:15</td> <td>Day 2 intro</td></tr>
+<tr><td>9:15 - 10:30</td> <td>Intro to R</td></tr>
+<tr><td>10:30 - 10:45</td> <td>Break</td></tr>
+<tr><td>10:45 - 12:00</td> <td>Data manipulation with dplyr</td></tr>
+<tr><td>12:00 - 1:00</td> <td>Lunch Break</td></tr>
+<tr><td>1:00 - 2:30</td> <td>Data Visualization with ggplot2 </td></tr>
+<tr><td>2:30 - 2:45</td> <td>Coffee</td></tr>
+<tr><td>2:45 - 3:15</td> <td>Reproducible reports with R Markdown </td></tr>
+<tr><td>3:15 - 4:00</td> <td>Capstone project</a> </td></tr>
+<tr><td>4:00 - 4:15</td> <td>Wrap up and fill out the post-workshop survey (see below)</td></tr>
+<tr><td>4:15 - 5:00</td> <td>Join the Data Carpentry team for drinks and snacks at the Sett</td></tr>
+</table>
 
 
 
@@ -216,12 +216,12 @@ tools for an efficient workflow once you leave the workshop.
 Please see the section for your operating system for those directions.
 <ul>
 <li><a href=#windows>Windows</a>
-<li><a href=#mac>Mac</a>
-<li><a href=#linux>Linux</a>
-</ul>
-
-</p>
-
 {% include windows_install.html %}
+
+<li><a href=#mac>Mac</a>
 {% include mac_install.html %}
+
+<li><a href=#linux>Linux</a>
 {% include linux_install.html %}
+</ul>
+</p>
