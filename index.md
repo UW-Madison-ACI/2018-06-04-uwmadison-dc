@@ -160,7 +160,7 @@ of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
 <h3>Day 1</h3>
 <table class="table table-striped">
 <tr> <td>8:30 - 9:00</td>  <td>Installation Help</td> </tr>
-<tr> <td>9:00 - 9:10</td>  <td>Introduction</td> </tr>
+<tr> <td>9:00 - 9:10</td>  <td><a href="2018-06-04_DC_intro.pdf">Introduction</a></td> </tr>
 <tr><td>9:10 - 10:30</td> <td><a href="https://lmichael107.github.io/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
 <tr><td>10:30 - 10:45</td> <td>Break</td></tr>
 <tr><td>10:45 - 12:00 </td> <td><a href="http://www.datacarpentry.org/OpenRefine-ecology-lesson/">Data Cleaning with OpenRefine</a></td></tr>
