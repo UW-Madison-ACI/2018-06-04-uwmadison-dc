@@ -174,15 +174,15 @@ of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
 <h3>Day 2</h3>
 <table class="table table-striped">
 <tr> <td>8:30 - 9:00</td>  <td>Installation Help</td> </tr>
-<tr><td>9:00 - 9:15</td> <td>Day 2 intro</td></tr>
+<tr><td>9:00 - 9:15</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/DC_day2intro.html">Day 2 intro</a></td></tr>
 <tr><td>9:15 - 10:30</td> <td>Intro to R</td></tr>
 <tr><td>10:30 - 10:45</td> <td>Break</td></tr>
-<tr><td>10:45 - 12:00</td> <td>Data manipulation with dplyr</td></tr>
+<tr><td>10:45 - 12:00</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/02-dplyr.html">Data manipulation with dplyr</a></td></tr>
 <tr><td>12:00 - 1:00</td> <td>Lunch Break</td></tr>
-<tr><td>1:00 - 2:30</td> <td>Data Visualization with ggplot2 </td></tr>
+<tr><td>1:00 - 2:30</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/03-ggplot2.html">Data Visualization with ggplot2</a></td></tr>
 <tr><td>2:30 - 2:45</td> <td>Coffee</td></tr>
-<tr><td>2:45 - 3:15</td> <td>Reproducible reports with R Markdown </td></tr>
-<tr><td>3:15 - 4:00</td> <td>Capstone project </td></tr>
+<tr><td>2:45 - 3:15</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/04-rmarkdown.html">Reproducible reports with R Markdown</a></td></tr>
+<tr><td>3:15 - 4:00</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/capstone.html">Capstone project</a></td></tr>
 <tr><td>4:00 - 4:15</td> <td>Wrap up and fill out the post-workshop survey (see below)</td></tr>
 </table>
 
