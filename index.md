@@ -184,7 +184,6 @@ of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
 <tr><td>2:45 - 3:15</td> <td>Reproducible reports with R Markdown </td></tr>
 <tr><td>3:15 - 4:00</td> <td>Capstone project </td></tr>
 <tr><td>4:00 - 4:15</td> <td>Wrap up and fill out the post-workshop survey (see below)</td></tr>
-<tr><td>4:15 - 5:00</td> <td>Join the Data Carpentry team for drinks and snacks at the Sett</td></tr>
 </table>
 
 
