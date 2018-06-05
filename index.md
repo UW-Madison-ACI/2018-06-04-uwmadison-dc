@@ -182,8 +182,8 @@ of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
 <tr><td>1:00 - 2:30</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/03-ggplot2.html">Data Visualization with ggplot2</a> [<a href="https://kbroman.org/datacarpentry_R_2018-06-04/2018-06-05_ggplot2.R">R script</a>]</td></tr>
 <tr><td>2:30 - 2:45</td> <td>Coffee</td></tr>
 <tr><td>2:45 - 3:15</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/04-rmarkdown.html">Reproducible reports with R Markdown</a></td></tr>
-<tr><td>3:15 - 4:00</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/capstone.html">Capstone project</a></td></tr>
-<tr><td>4:00 - 4:15</td> <td>Wrap up and fill out the post-workshop survey (see below)</td></tr>
+<tr><td>3:15 - 4:00</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/capstone.html">Capstone project</a> [Solutions: <a href="https://kbroman.org/datacarpentry_R_2018-06-04/capstone_soln/capston_soln.Rmd">Rmd</a> | <a href="https://kbroman.org/datacarpentry_R_2018-06-04/capstone_soln/capston_soln.html">html</a>]</td></tr>
+<tr><td>4:00 - 4:15</td> <td>Wrap up and fill out the post-workshop survey (see above)</td></tr>
 </table>
 
 
