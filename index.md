@@ -177,9 +177,9 @@ of UW-Madison's [Advanced Computing Initiative](http://aci.wisc.edu/).
 <tr><td>9:00 - 9:15</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/DC_day2intro.html">Day 2 intro</a></td></tr>
 <tr><td>9:15 - 10:30</td> <td>Intro to R</td></tr>
 <tr><td>10:30 - 10:45</td> <td>Break</td></tr>
-<tr><td>10:45 - 12:00</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/02-dplyr.html">Data manipulation with dplyr</a></td></tr>
+<tr><td>10:45 - 12:00</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/02-dplyr.html">Data manipulation with dplyr</a> [<a href="https://kbroman.org/datacarpentry_R_2018-06-04/2018-06-05_dplyr.R">R script</a>]</td></tr>
 <tr><td>12:00 - 1:00</td> <td>Lunch Break</td></tr>
-<tr><td>1:00 - 2:30</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/03-ggplot2.html">Data Visualization with ggplot2</a></td></tr>
+<tr><td>1:00 - 2:30</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/03-ggplot2.html">Data Visualization with ggplot2</a> [<a href="https://kbroman.org/datacarpentry_R_2018-06-04/2018-06-05_ggplot2.R">R script</a>]</td></tr>
 <tr><td>2:30 - 2:45</td> <td>Coffee</td></tr>
 <tr><td>2:45 - 3:15</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/04-rmarkdown.html">Reproducible reports with R Markdown</a></td></tr>
 <tr><td>3:15 - 4:00</td> <td><a href="https://kbroman.org/datacarpentry_R_2018-06-04/capstone.html">Capstone project</a></td></tr>
